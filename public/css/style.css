@@ -1,0 +1,83 @@
+* {
+    color: white;
+}
+
+.bg {
+    background: url('image/bg-login.jpeg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.form-container {
+    background-color: #BDBDBD;
+    border: 0px solid white;
+    padding: 50px 60px;
+    padding-top: 100px;
+    margin-top: -9vh;
+/*
+    -webkit-box-shadow: 0px 4px 25px 8px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 4px 25px 8px rgba(0,0,0,1);
+    box-shadow: 0px 4px 25px 8px rgba(0,0,0,1);
+*/
+}
+
+.btn-submit {
+    background-color: #757575;
+}
+
+.btn-submit:hover {
+    background-color: #424242;
+    color: white;
+}
+
+.image {
+    text-align: center;
+    margin-top: 20vh;
+}
+
+img {
+    width: 125px;
+    height: 125px;
+}
+
+.daftar{
+    margin-top: 10px;
+}
+
+#textdaftar{
+    color: black;
+    text-align: left;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#register{
+    font-size: 18px;
+    padding-left: 100px;
+}
+@media screen and (max-width: 360px) {
+    
+    .form-container {
+        padding: 20px 20px;
+        padding-top: 80px;
+    }   
+    
+    #register{
+        padding-left: 80px;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    
+    .form-container {
+        padding: 20px 20px;
+        padding-top: 80px;
+    }   
+    
+    #register{
+        padding-left: 35px;
+        position: absolute;
+    }
+}
